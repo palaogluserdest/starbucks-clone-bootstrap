@@ -1,0 +1,45 @@
+.video {
+  position: sticky;
+  top: 75px;
+  margin-top: -20px;
+  height: 700px;
+  background-color: #dcf0e3;
+}
+
+.welcome {
+  margin-top: -60px;
+  margin-left: 50px;
+  z-index: 100;
+}
+
+.bg-transparent {
+  background-color: transparent;
+}
+
+.mb-10 {
+  margin-bottom: 100px;
+}
+
+.border-none {
+  border: none;
+}
+
+.accordion-button {
+  font-size: 1.5rem;
+}
+
+.accordion-button:not(.collapsed) {
+  color: #000000;
+  background-color: #ffffff;
+  box-shadow: none;
+}
+
+button:focus:not(:focus-visible){
+  box-shadow: none;
+}
+
+@media (max-width: 576px) { 
+  .video {
+    position: static;
+  }
+}
